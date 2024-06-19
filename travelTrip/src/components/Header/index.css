@@ -1,0 +1,99 @@
+/* Header container */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Logo link */
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navigation links */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+  text-decoration: underline;
+}
+/* Default styles */
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Container for main content */
+.main-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Responsive styles */
+
+/* Adjust header for smaller screens */
+@media screen and (max-width: 768px) {
+  .logo a {
+    font-size: 1.2rem;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Adjust main container for smaller screens */
+@media screen and (max-width: 768px) {
+  .main-container {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,38 @@
+/* Parent component container */
+.book-new-trip-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Step container */
+.step-container {
+  margin-bottom: 40px;
+}
+
+/* Step heading */
+.step-heading {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Button container */
+.button-container {
+  margin-top: 20px;
+}
+
+/* Navigation buttons */
+.nav-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect for navigation buttons */
+.nav-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,31 @@
+/* Container for MyTrips component */
+.my-trips-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Heading for MyTrips */
+.my-trips-heading {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Trip card */
+.trip-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* Trip card heading */
+.trip-card h3 {
+  margin-bottom: 10px;
+}
+
+/* Trip card details */
+.trip-card p {
+  margin-bottom: 5px;
+}
