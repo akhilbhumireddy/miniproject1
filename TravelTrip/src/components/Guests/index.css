@@ -1,0 +1,41 @@
+/* GuestsForm.css */
+
+.guests-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.guests-form h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.guests-form p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.guests-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.guests-controls button {
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.guests-controls p {
+  font-size: 16px;
+  margin: 0 10px;
+}

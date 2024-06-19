@@ -1,0 +1,56 @@
+/* MyTrips.css */
+.my-trips {
+  padding: 20px;
+}
+
+.my-trips h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.my-trips ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.my-trips li {
+  margin-bottom: 10px;
+}
+
+.my-trips .trip-card {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.my-trips .trip-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.my-trips .trip-card p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.my-trips .trip-card .actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.my-trips .trip-card .actions button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.my-trips .trip-card .actions button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,38 @@
+/* Confirmation.css */
+.confirmation {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.confirmation .details {
+  margin-bottom: 20px;
+}
+
+.confirmation .details p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.confirmation button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.confirmation button:hover {
+  background-color: #0056b3;
+}
